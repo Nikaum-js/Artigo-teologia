@@ -1,0 +1,110 @@
+import { Link } from 'react-router-dom'
+
+import Styles from './styles'
+
+export function Bibliografia() {
+  return (
+    <Styles.Container>
+      <Styles.Content>
+        <nav>
+          <h1>Bibliografia</h1>
+
+          <ul>
+            <li>
+              <a
+                href="https://www.scielo.br/j/rs/a/48y4nF5KZmwDGyfmRVMJhHC/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.scielo.br/j/rs/a/48y4nF5KZmwDGyfmRVMJhHC/
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.ifch.unicamp.br/criticamarxista/arquivos_biblioteca/resenha2015_06_04_23_11_5395.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.ifch.unicamp.br/criticamarxista/arquivos_biblioteca/resenha2015_06_04_23_11_5395.pdf
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.ihu.unisinos.br/noticias/544450-o-cristianismo-e-as-suas-historias-artigo-de-marco-rizzi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.ihu.unisinos.br/noticias/544450-o-cristianismo-e-as-suas-historias-artigo-de-marco-rizzi
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://periodicos.uem.br/ojs/index.php/RbhrAnpuh/issue/view/1208"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://periodicos.uem.br/ojs/index.php/RbhrAnpuh/issue/view/1208
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.historiadomundo.com.br/religioes/cristianismo.htm"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.historiadomundo.com.br/religioes/cristianismo.htm
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://pt.khanacademy.org/humanities/approaches-to-art-history/understanding-religion-art/christianity-in-art/a/christianity-an-introduction"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://pt.khanacademy.org/humanities/approaches-to-art-history/understanding-religion-art/christianity-in-art/a/christianity-an-introduction
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.erealizacoes.com.br/blog/o-que-e-cristianismo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.erealizacoes.com.br/blog/o-que-e-cristianismo/
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://periodicos.uff.br/helade/article/view/38758"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://periodicos.uff.br/helade/article/view/38758
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jornal.usp.br/artigos/cristianismo-e-ciencia-da-integracao-entre-razao-e-fe-ao-obscurantismo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://jornal.usp.br/artigos/cristianismo-e-ciencia-da-integracao-entre-razao-e-fe-ao-obscurantismo/
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://seer.pucgoias.edu.br/index.php/fragmentos/article/view/2229"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://seer.pucgoias.edu.br/index.php/fragmentos/article/view/2229
+              </a>
+            </li>
+          </ul>
+
+          <Link to="/">Voltar</Link>
+        </nav>
+      </Styles.Content>
+    </Styles.Container>
+  )
+}

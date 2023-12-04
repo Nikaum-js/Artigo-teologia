@@ -72,14 +72,24 @@ const Content = styled.main`
 
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px; /* 150% */
+    line-height: 36px;
     letter-spacing: 1px;
 
     margin: 24px 0;
   }
 
+  h3 {
+    color: #2b2b2b;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+
   .alight-center {
     text-align: center;
+    font-weight: bold;
   }
 
   img {
